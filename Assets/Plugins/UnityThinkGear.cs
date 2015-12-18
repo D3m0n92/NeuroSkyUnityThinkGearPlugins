@@ -102,6 +102,7 @@ public class UnityThinkGear{
 #elif UNITY_ANDROID
 		return jo.Get<bool>("sendRawEnable");
 #endif
+	return false;
 	}
 	public static bool GetSendEEGEnable(){
 #if UNITY_IPHONE
@@ -109,6 +110,7 @@ public class UnityThinkGear{
 #elif UNITY_ANDROID
 		return jo.Get<bool>("sendEEGEnable");
 #endif
+	return false;
 	}
 	public static bool GetSendESenseEnable(){
 #if UNITY_IPHONE
@@ -116,6 +118,7 @@ public class UnityThinkGear{
 #elif UNITY_ANDROID
 		return jo.Get<bool>("sendESenseEnable");
 #endif
+	return false;
 	}
 	public static bool GetSendBlinkEnable(){
 #if UNITY_IPHONE
@@ -123,6 +126,7 @@ public class UnityThinkGear{
 #elif UNITY_ANDROID
 		return jo.Get<bool>("sendBlinkEnable");
 #endif
+	return false;
 	}
 	
 	//========================
